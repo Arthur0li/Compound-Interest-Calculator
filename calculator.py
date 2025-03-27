@@ -1,3 +1,21 @@
+"""Compound Interest Calculator.
+
+This module calculates the compound interest based on user inputs.
+It supports both English and Portuguese languages.
+
+Inputs:
+    - Capital: float - the initial amount of money (capital).
+    - Tax: float - the monthly interest rate in percentage (converted to decimal).
+    - Months: int - the number of months for the calculation.
+
+Calculation:
+    The final amount is computed using the formula:
+        amount = capital * (1 + tax) ** months
+
+Usage:
+    Run the script and follow the prompts for language selection and data input.
+"""
+
 from math import pow
 
 print('This is a compound interest calculator. / Esta é uma calculadora de juros compostos.')
