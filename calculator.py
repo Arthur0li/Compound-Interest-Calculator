@@ -1,20 +1,32 @@
-"""Compound Interest Calculator.
+"""Compound Interest Calculator / Calculadora de Juros Compostos
 
+English:
 This module calculates the compound interest based on user inputs.
 It supports both English and Portuguese languages.
-
 Inputs:
-    - Capital: float - the initial amount of money (capital).
-    - Tax: float - the monthly interest rate in percentage (converted to decimal).
+    - Capital: float - the initial amount of money.
+    - Tax: float - the monthly interest rate in percentage (which is converted to a decimal).
     - Months: int - the number of months for the calculation.
-
 Calculation:
     The final amount is computed using the formula:
         amount = capital * (1 + tax) ** months
-
 Usage:
     Run the script and follow the prompts for language selection and data input.
+
+Português:
+Este módulo calcula os juros compostos com base nas entradas do usuário.
+Ele suporta os idiomas inglês e português.
+Entradas:
+    - Capital: float - o valor inicial de dinheiro.
+    - Tax: float - a taxa de juros mensal em porcentagem (que é convertida para decimal).
+    - Months: int - o número de meses para o cálculo.
+Cálculo:
+    O valor final é calculado usando a fórmula:
+        amount = capital * (1 + tax) ** months
+Uso:
+    Execute o script e siga as instruções para selecionar o idioma e inserir os dados.
 """
+
 
 from math import pow
 
